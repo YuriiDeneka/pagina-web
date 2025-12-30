@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Yurii Denka</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+  <header>
+    <h1 class="site-title">Yuri Denka</h1>
+    <p class="site-subtitle">Ingeniería Informática - UFV</p>
+  </header>
+
   <nav>
-    <a href="../index.html">Inicio</a>
-    <a href="about.html">Sobre mi</a>
-    <a href="contacts.html">Contacto</a>
-    <a href="net.html">Red</a>
-    <a href="topic.html">Tema</a>
-    <a href="degree.html">Grado</a>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="about.html">Sobre mí</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="net.html">Red</a></li>
+      <li><a href="topic.html">Tema</a></li>
+      <li><a href="degree.html">Grado</a></li>
+    </ul>
   </nav>
-  
-  <h1>Habla conmigo</h1>
-  <form action="">
-    <input type="text" placeholder="nombre completo">
-    <input type="email" placeholder="email@gmail.com">
-    <textarea rows="4" placeholder="que quieres decirme"></textarea>
-    <button>Enviar</button>
-  </form>
-</body>
-</html>
+
+  <main class="container">
+    <div class="hero">
+      <h1>Contacto</h1>
+      <p>¿Quieres hablar conmigo? Usa el formulario</p>
+    </div>
+
+    <div class="section form-container">
+      <form>
+        <div class="form-group">
+          <input type="text" name="nombre" placeholder="Tu nombre completo" required>
+        </div>
+        
+        <div class="form-group">
+          <input type="email" name="email" placeholder="tu.email@ejemplo.com" required>
+        </div>
+        
+        <div class="form-group">
+          <textarea name="mensaje" rows="6" placeholder="Escribe tu mensaje... ¿Colaboración? ¿Dudas sobre mi portfolio? ¿Oferta laboral?" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn">Enviar Mensaje</button>
+      </form>
+
+      <div class="grid" style="margin-top: 40px;">
+        <div class="card">
+          <h3>📧 Email</h3>
+          <p>yuri.denka@ufv.es</p>
+        </div>
+        <div class="card">
+          <h3>💻 GitHub</h3>
+          <p><a href="https://github.com/yuridenka">github.com/yuridenka</a></p>
+        </div>
+        <div class

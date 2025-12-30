@@ -1,9 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi tema: HTML CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tema: Aviones - Yurii Denka</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+  <header>
+    <h1 class="site-title">Yurii Denka</h1>
+    <p class="site-subtitle">Ingeniería Informática - UFV</p>
+  </header>
+
   <nav>
-    <a href="../
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="about.html">Sobre mí</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="net.html">Red</a></li>
+      <li><a href="topic.html">Tema</a></li>
+      <li><a href="degree.html">Grado</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="hero">
+      <h1>Aviones</h1>
+      <p>Un tema que me gusta: cómo vuelan y qué partes tienen</p>
+      <p>(Explicado de forma simple, como para 1º)</p>
+    </div>
+
+    <div class="section">
+      <h1>¿Qué es un avión?</h1>
+      <p>
+        Un avión es una aeronave que se mantiene en el aire gracias a la sustentación generada por sus alas
+        y se mueve hacia delante gracias al empuje (motores o hélices).
+      </p>
+      <p>
+        En esta página resumo las ideas básicas: fuerzas del vuelo, partes principales y tipos de aviones.
+      </p>
+    </div>
+
+    <div class="section">
+      <h1>Las 4 fuerzas del vuelo</h1>
+      <p>
+        Para que un avión vuele, siempre hay cuatro fuerzas que “se pelean”: sustentación (lift), peso (weight),
+        empuje (thrust) y resistencia (drag).
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>⬆️ Sustentación (Lift)</h3>
+          <p>Es la fuerza hacia arriba que se genera principalmente en las alas.</p>
+          <p>Si hay suficiente sustentación, el avión puede mantenerse en el aire.</p>
+        </div>
+
+        <div class="card">
+          <h3>⬇️ Peso (Weight)</h3>
+          <p>Es la fuerza de la gravedad que tira del avión hacia abajo.</p>
+          <p>Cuanto más peso, más sustentación necesita para volar.</p>
+        </div>
+
+        <div class="card">
+          <h3>➡️ Empuje (Thrust)</h3>
+          <p>Es la fuerza que mueve el avión hacia delante.</p>
+          <p>La crea el motor (reactor) o la hélice, según el tipo de avión.</p>
+        </div>
+
+        <div class="card">
+          <h3>⬅️ Resistencia (Drag)</h3>
+          <p>Es el “freno” del aire contra el avión.</p>
+          <p>Cuanto más drag, más empuje hace falta para mantener la velocidad.</p>
+        </div>
+      </div>
+
+      <h2>¿Qué pasa en vuelo recto?</h2>
+      <p>
+        En vuelo recto y nivelado, lo normal es que sustentación ≈ peso y empuje ≈ resistencia.
+        Si cambias una fuerza (por ejemplo, más empuje), las demás también cambian.
+      </p>
+    </div>
+
+    <div class="section">
+      <h1>¿Cómo “hace” lift un ala?</h1>
+      <p>
+        No es solo una cosa: influyen la forma del ala (perfil), el ángulo de ataque y cómo el ala “desvía”
+        el aire hacia abajo, lo que genera una reacción hacia arriba.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Ángulo de ataque</h3>
+          <p>Si aumentas demasiado el ángulo, puedes entrar en pérdida (stall).</p>
+        </div>
+        <div class="card">
+          <h3>Velocidad</h3>
+          <p>A más velocidad, normalmente es más fácil generar sustentación.</p>
+        </div>
+        <div class="card">
+          <h3>Flaps (en despegue/aterrizaje)</h3>
+          <p>Ayudan a generar más sustentación a baja velocidad (pero también más drag).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h1>Partes principales de un avión</h1>
+      <p>La mayoría de aviones comparten una estructura parecida:</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Fuselaje</h3>
+          <p>Es el “cuerpo” del avión: cabina, pasajeros/carga y unión de componentes.</p>
+        </div>
+
+        <div class="card">
+          <h3>Alas</h3>
+          <p>Generan sustentación y suelen llevar superficies de control (alerones, flaps).</p>
+        </div>
+
+        <div class="card">
+          <h3>Cola (empennage)</h3>
+          <p>Da estabilidad y control con superficies como timón y elevador.</p>
+        </div>
+
+        <div class="card">
+          <h3>Tren de aterrizaje</h3>
+          <p>Permite moverse por tierra y soporta despegues y aterrizajes.</p>
+        </div>
+      </div>
+
+      <h2>Superficies de control (lo básico)</h2>
+      <ul>
+        <li><strong>Alerones</strong>: controlan el alabeo (roll).</li>
+        <li><strong>Elevador</strong>: controla el cabeceo (pitch).</li>
+        <li><strong>Timón (rudder)</strong>: controla la guiñada (yaw).</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>Tipos de aviones (muy resumido)</h1>
+
+      <div class="grid">
+        <div class="card">
+          <h3>✈️ Comerciales</h3>
+          <p>Diseñados para transportar pasajeros de forma eficiente y segura.</p>
+        </div>
+
+        <div class="card">
+          <h3>🛩️ Aviación general</h3>
+          <p>Avionetas, escuelas de vuelo, vuelos privados, etc.</p>
+        </div>
+
+        <div class="card">
+          <h3>🚀 Militares</h3>
+          <p>Cazas, transporte, vigilancia… suelen priorizar rendimiento y misión.</p>
+        </div>
+      </div>
+
+      <h2>Dato curioso</h2>
+      <p>
+        Aunque parezcan “rígidas”, las alas están diseñadas para flexar con turbulencia; esa flexión es normal.
+      </p>
+    </div>
+
+    <div class="section">
+      <h1>Por qué elegí este tema</h1>
+      <p>
+        Elegí aviones porque me interesa cómo una idea física (fuerzas, aerodinámica) se convierte en algo real:
+        un sistema complejo que funciona con mucha ingeniería detrás.
+      </p>
+      <p>
+        Además, me sirve para practicar estructura HTML (secciones, listas, tarjetas) y CSS en una página larga.
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>Portfolio FII - Yurii Denka (UFV)</p>
+    </div>
+  </main>
+</body>
+</html>
+
